@@ -1,4 +1,4 @@
-#include "wGUI"
+#include "wGUI.h"
 
 LPTSTR szClassName = "App on wGUI";
 
