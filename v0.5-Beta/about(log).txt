@@ -1,0 +1,15 @@
+Extra:
+- Designed and implemented a sort of c () ... not very comfortable but at least something
+            c (name). form (/ button / listbox / edit / ...) -> param_method;
+- Thus components can be given the same name
+* BETA 0.5 *:
+    - Now, to create a form that can be vospolzovatsya class constructor TForm (!)
+    - On the approach of the function to return the component name (!). This feature will reduce the number of "global components."
+    - A bug in the onChange class TEdit, namely, if the receive text and call the Focus after the last character of the text -! @! etc (?)
+    - Who'll take care of adding events to other components before they have not yet been tested. Plan to add:
+        * OnFocus (TEdit / TMemo)
+        * OnDblClick (TButton)
+    - Properties hI, __ class__ now public!
+    - May be useless, but for the time debug (!) Added feature wMessage (LPTSTR message, LPTSTR caption = wgui.__class__)
+    - Yeah! Double click on the button does not work process, I think, do a background check on the kernel level wGUI ...
+    - Added onFocus event for TEdit
