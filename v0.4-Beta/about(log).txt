@@ -1,0 +1,11 @@
+---------------------
+
+		About wGUI v0.4 BETA:
+			
+	- Removed the mandatory advertisement CALLBACK function - wndProc, it is declared with class 
+     	- Now, thanks wGUI, you can create a separate application form with only 8 lines. (!) 
+  	- Unfortunately, to give a user access to another function does not work (-) as when announcements with gooey element in another function arises program crash 
+         	in the event handler. Almost 1 hour thinking how to fix crash, ideas are not (!)
+
+
+---------------------
