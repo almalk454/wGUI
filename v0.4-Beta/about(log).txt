@@ -2,10 +2,16 @@
 
 		About wGUI v0.4 BETA:
 			
-	- Removed the mandatory advertisement CALLBACK function - wndProc, it is declared with class 
-     	- Now, thanks wGUI, you can create a separate application form with only 8 lines. (!) 
-  	- Unfortunately, to give a user access to another function does not work (-) as when announcements with gooey element in another function arises program crash 
-         	in the event handler. Almost 1 hour thinking how to fix crash, ideas are not (!)
-
+	- Removed the mandatory advertisement CALLBACK function - wndProc, it is declared with class
+    	- Now, thanks wGUI, you can create a separate application form with only 8 lines. (!)
+     	- Unfortunately, to give a user access to another function does not work (-) as when announcements with gooey element in another function arises program crash
+        	in the event handler. Almost 1 hour thinking how to fix crash, ideas are not (!)
+    	- Most likely today will integrate TButton class and one class under TCheckBox TButtonEx. In the designer will be able to select a checkbox or just buttons
+& 06/06/14 &
+UPD:
+    - TCheckBox TButton and are united in one class - TButton. Defect has been corrected.
+    - Appending the couple "makrosnyh" or whatever they are called conditions
+    - For the same reason that TButton TCheckBox and I think that we need to move TMemo and TEdit under one class - TEdit
+& 06/07/14 &
 
 ---------------------
